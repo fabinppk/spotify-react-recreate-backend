@@ -15,6 +15,8 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background: #181818;
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
         font-family: 'Montserrat', sans-serif;
     }
 `;
