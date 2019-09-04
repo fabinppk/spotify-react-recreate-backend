@@ -8,13 +8,6 @@
         "es6": true,
         "jest": true
     },
-    "settings": {
-        "import/resolver": {
-            "webpack": {
-                "config": "webpack.extra.js"
-            }
-        }
-    },
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "import/extensions": "off",
