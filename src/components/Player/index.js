@@ -48,7 +48,7 @@ const Player = ({
                     <img src={player.currentSong.thumbnail} alt={player.currentSong.title} />
 
                     <div>
-                        <span>{player.currentSong.title}</span>
+                        <p>{player.currentSong.title}</p>
                         <small>{player.currentSong.author}</small>
                     </div>
                 </Fragment>

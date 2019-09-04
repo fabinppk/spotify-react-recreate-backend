@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const Current = styled.div`
     display: flex;
     align-items: center;
+    width: 250px;
 
     img {
         width: 48px;
@@ -22,10 +23,14 @@ export const Current = styled.div`
         margin-left: 12px;
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
 
-        span {
+        p {
             font-size: 13px;
             color: white;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow-x: hidden;
         }
 
         small {
@@ -75,6 +80,13 @@ export const Volume = styled.div`
     align-items: center;
     width: 100px;
     margin-rigth: 20px;
+    margin-right: 20px;
+    width: 250px;
+    justify-content: flex-end;
+
+    .rc-slider {
+        width: 100px;
+    }
 
     img {
         margin-right: 5px;
