@@ -13,3 +13,5 @@ export function* getPlaylistDetails(action) {
         yield put(ErrorActions.setError('Não possível obter os detalhes da playlist.'));
     }
 }
+
+export default getPlaylistDetails;
