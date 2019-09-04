@@ -30,7 +30,7 @@ export const Current = styled.div`
 
         small {
             font-size: 11px;
-            color: #b3b3b3;
+            color: #f2f2f2;
             margin-top: 5px;
         }
     }
@@ -61,12 +61,12 @@ export const Time = styled.div`
 
     span {
         font-size: 11px;
-        color: #b3b3b3;
+        color: #f2f2f2;
     }
 `;
 
 export const ProgressSlider = styled.div`
-    width: 500px;
+    width: 650px;
     margin: 0 15px;
 `;
 
