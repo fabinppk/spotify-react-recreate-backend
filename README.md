@@ -1,1 +1,1 @@
-spotify-react-recreate
+spotify-react-recreate-backend
