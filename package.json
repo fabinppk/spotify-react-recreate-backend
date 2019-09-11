@@ -1,23 +1,12 @@
 {
   "name": "spotify-react-recreate-backend",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "eslint-plugin-react": "^7.14.3",
     "json-server": "^0.15.1"
   },
+  "main": "server.js",
   "scripts": {
-    "heroku-prebuild": "npm install -g json-server",
-    "start": "json-server --host spotify-recreate-backend.herokuapp.com server.json -p 3000 -w"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "devDependencies": {
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-better-styled-components": "^1.1.2",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   }
 }
