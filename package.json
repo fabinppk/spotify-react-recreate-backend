@@ -8,7 +8,7 @@
   },
   "scripts": {
     "heroku-prebuild": "npm install -g json-server",
-    "start": "json-server server.json -p 3000 -w -d 500"
+    "start": "json-server --host spotify-recreate-backend.herokuapp.com server.json -p 3000 -w"
   },
   "eslintConfig": {
     "extends": "react-app"
