@@ -23,9 +23,85 @@
             "title": "Só elas",
             "description": "As melhores cantoras POP reunidas em uma playlist pra você.",
             "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Best RHCP",
+            "description": "As melhores músicas da carreira do chili peppers!",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/playlists/best-rhcp.png"
         }
     ],
     "songs": [
+        {
+            "id": 1000,
+            "title": "By The Way",
+            "author": "Red Hot Chili Peppers",
+            "album": "By The Way",
+            "file": "https://spotify-recreate.s3.amazonaws.com/songs/by-the-way.mp3",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/songs/cover/by-the-way.jpg",
+            "playlistId": 5,
+            "duration": "3:37"
+        },
+        {
+            "id": 1001,
+            "title": "Don't Forget Me",
+            "author": "Red Hot Chili Peppers",
+            "album": "By The Way",
+            "file": "https://spotify-recreate.s3.amazonaws.com/songs/dont-forget-me.mp3",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/songs/cover/by-the-way.jpg",
+            "playlistId": 5,
+            "duration": "4:37"
+        },
+        {
+            "id": 1002,
+            "title": "Can't Stop",
+            "author": "Red Hot Chili Peppers",
+            "album": "By The Way",
+            "file": "https://spotify-recreate.s3.amazonaws.com/songs/cant-stop.mp3",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/songs/cover/by-the-way.jpg",
+            "playlistId": 5,
+            "duration": "4:29"
+        },
+        {
+            "id": 1003,
+            "title": "Otherside",
+            "author": "Red Hot Chili Peppers",
+            "album": "Californication",
+            "file": "https://spotify-recreate.s3.amazonaws.com/songs/otherside.mp3",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/songs/cover/californication.jpg",
+            "playlistId": 5,
+            "duration": "4:15"
+        },
+        {
+            "id": 1004,
+            "title": "Scar Tissue",
+            "author": "Red Hot Chili Peppers",
+            "album": "Californication",
+            "file": "https://spotify-recreate.s3.amazonaws.com/songs/scar-tissue.mp3",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/songs/cover/californication.jpg",
+            "playlistId": 5,
+            "duration": "3:36"
+        },
+        {
+            "id": 1005,
+            "title": "Dani California",
+            "author": "Red Hot Chili Peppers",
+            "album": "Stadium Arcadium",
+            "file": "https://spotify-recreate.s3.amazonaws.com/songs/dani-california.mp3",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/songs/cover/stadium-arcadium.jpg",
+            "playlistId": 5,
+            "duration": "4:42"
+        },
+        {
+            "id": 1006,
+            "title": "Under The Bridge",
+            "author": "Red Hot Chili Peppers",
+            "album": "Blood Sugar Sex Magik",
+            "file": "https://spotify-recreate.s3.amazonaws.com/songs/under-the-bridge.mp3",
+            "thumbnail": "https://spotify-recreate.s3.amazonaws.com/songs/cover/blood-sugar-sex-magik.jpg",
+            "playlistId": 5,
+            "duration": "4:24"
+        },
         {
             "id": 0,
             "title": "Papercut",
